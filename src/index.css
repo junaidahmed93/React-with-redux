@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #f7f7f7 !important;
+}
+
+#root{
+  height: 100%;
+}
+
+.loginGrid{
+  height: 100%;
+}
+
+.loginGridRow{
+  height: 100%;
+}
+
+.loginGridColLeft{
+  background-image: url('./assets/images/login-screen.jpg');
+  background-repeat: no-repeat;
+  background-size: 500px 660px;
+}
+
+.loginPage{ 
+  height: 60%;
+  width: 100%;
+
+}
+
+.loginPage> .loginsection {
+  margin-top:40%;
+  height: 50%; 
+}
+
+.loginPage> .loginsection > .loginForm {
+
+  margin: 0 auto;
+   width: 90%;
+}
+
+.menu-header{
+  height: 60px;
+}
+
+.menu-left-logo{
+  font-size: 24px;
+  margin-top:20px;
+  margin-bottom:20px;
+  width: 200px;
+}
+
+.colBorder{
+  border: 1px solid red;
+}
+
+/* .dashboardRoute{
+  border: 1px solid purple;
+  margin-left:20%;
+} */
+
+.circleMenuToggle{
+  height: 36px;
+  width: 36px;
+  border-radius: 50px;
+  border: 1px solid #29ABE2;
+  background-color: #29ABE2;
+}
+
+.leftTitle{
+  color: #1A173B;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.menu-item{
+  padding-bottom: 25px !important; 
+}
+.overview{
+  padding-right: 30px;
+}

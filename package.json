@@ -1,0 +1,35 @@
+{
+  "name": "ghooks",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "chart.js": "^1.1.1",
+    "history": "^4.7.2",
+    "material-ui": "^0.20.0",
+    "moment": "^2.20.1",
+    "react": "^16.2.0",
+    "react-chartjs": "^0.8.0",
+    "react-chartjs-2": "^2.6.4",
+    "react-datepicker": "^0.64.0",
+    "react-day-picker": "^7.0.5",
+    "react-dom": "^16.2.0",
+    "react-flexbox-grid": "^2.0.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "semantic-ui-calendar": "0.0.8",
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.77.1",
+    "sfcookies": "^1.0.2",
+    "superagent": "^3.8.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
