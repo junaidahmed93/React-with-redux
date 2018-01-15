@@ -70,7 +70,7 @@ class RemoteCheckIn extends Component {
 
 
         <Route path={`${this.props.match.url}/:status`} component={RequestPending} />
-        {this.props.children}
+        {/* {this.props.children} */}
       </div>
     )
   }

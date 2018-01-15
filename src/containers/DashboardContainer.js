@@ -18,24 +18,37 @@ class Dashboard extends Component {
   }
 
   selectedRoute = (route, i) => {
+    console.log("12",this.state.container);
     this.setState({ renderer: this.state.container[i] });
-    this.props.history.push(`${this.props.match.url}/hotel`)
+    if(i===0){
+      this.props.history.push(`${this.props.match.url}`)
+    }
+    else if(i===1){
+      this.props.history.push(`${this.props.match.url}/remote`)
+    }
+    else{
+      this.props.history.push(`${this.props.match.url}/hotel`)
+    }
+    
   }
 
   componentDidMount() {
     console.log("Component did mount", this.props);
   }
 
-
+  
   render() {
     return (
-      <div>
+      <div style={{backgroundColor: '#FFFFFF'}}>
+
         <HeaderMenu
           selectedRoute={this.selectedRoute}
         />
-        <div className="dashboardRoute">
-          <Route path={`${this.props.match.url}/:menu`} component={this.state.renderer} />
-        </div>
+
+      
+        {/* <div className="dashboardRoute">
+          <Route path={`${this.props.match.url}/:status`} component={this.state.renderer} />
+        </div> */}
 
       </div>
     )

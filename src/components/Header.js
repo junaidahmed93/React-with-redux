@@ -15,15 +15,15 @@ class HeaderMenu extends Component {
     handleItemClick = (e, { name }) => {
         let items, i;
         if (name === 'Overview') {
-            items = ['Overview Home'];
+            items = ['Overview Home' , '2','4'];
             i = 0;
         }
         else if (name === 'Remote Check-In') {
-            items = ['Remote Check In'];
+            items = ['Remote Check In', 'O' , 'P'];
             i = 1;
         }
         else if (name === 'Hotel Check-In') {
-            items = ['Hotel Check In'];
+            items = ['Hotel Check In', '@' , '#'];
             i = 2;
 
         }

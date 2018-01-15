@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { Router, Route, Switch } from 'react-router';
 import { createBrowserHistory } from 'history';
 import PrivateRoute from './PrivateRoute';
-import { LoginContainer, DashboardContainer, RemoteCheckIn } from './containers';
+import { LoginContainer, DashboardContainer, RemoteCheckIn, HotelCheckIn } from './containers';
 const browserHistory = createBrowserHistory();
 
 class AllRoutes extends Component {
@@ -18,6 +18,8 @@ class AllRoutes extends Component {
           </Switch>
           <Switch>
             <Route path='/dashboard/remote' component={RemoteCheckIn} />
+            <Route path='/dashboard/hotel' component={HotelCheckIn} />
+
             {/* <Route path='/home' user={this.props.login.user} component={Home} />
             <Route path='/syncsummary/:companyName' user={this.props.login.user} component={SyncSummary} />
             <Route path='/settings' user={this.props.login.user} component={Settings} />
